@@ -6,7 +6,7 @@ const compress = require('koa-compress');
 const config = require('config');
 const { throwException } = require('./utils/constants/errors');
 
-const seckillModule = require('./src/contrallers/seckill');
+const seckillModule = require('./src/controller/seckill');
 
 // 预加载脚本文件
 require('./utils/scripts');
